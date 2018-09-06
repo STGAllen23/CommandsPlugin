@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group  'com.stgallen.commands'
+group  'com.stgallen.ccommands'
 version  '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8

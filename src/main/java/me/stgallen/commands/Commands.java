@@ -1,11 +1,11 @@
-package me.stgallen.commands;
+package me.stgallen.ccommands;
 
 import com.google.inject.Inject;
-import me.stgallen.commands.Config.Config;
-import me.stgallen.commands.Executors.FalseExecutor;
-import me.stgallen.commands.Executors.TrainerFalse;
-import me.stgallen.commands.Executors.TrainerTrue;
-import me.stgallen.commands.Executors.TrueExecutor;
+import me.stgallen.ccommands.Config.Config;
+import me.stgallen.ccommands.Executors.FalseExecutor;
+import me.stgallen.ccommands.Executors.TrainerFalse;
+import me.stgallen.ccommands.Executors.TrainerTrue;
+import me.stgallen.ccommands.Executors.TrueExecutor;
 import org.spongepowered.api.Game;
 import org.spongepowered.api.command.spec.CommandSpec;
 import org.spongepowered.api.config.DefaultConfig;
@@ -22,7 +22,7 @@ import java.nio.file.Path;
 import java.util.logging.Logger;
 @Plugin(
         id = "customcommands",
-        name = "Custom Commands!",
+        name = "Custom commands!",
         version = "1.0",
         authors = {"STG_Allen"}
 )
@@ -76,7 +76,7 @@ public class Commands  {
 
         CommandSpec trainerFalse = CommandSpec.builder()
                 .description(Text.of("Deny players from interacting with trainers in your claim."))
-                .permission("commands.trainer.deny")
+                .permission("ccommands.trainer.deny")
                 .executor(new TrainerFalse())
                 .build();
         game.getCommandManager().register(this, trainerFalse, "trainerdeny");

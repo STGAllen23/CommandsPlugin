@@ -1,4 +1,4 @@
-package me.stgallen.commands.Executors;
+package me.stgallen.ccommands.Executors;
 
 import org.spongepowered.api.Sponge;
 import org.spongepowered.api.command.CommandException;

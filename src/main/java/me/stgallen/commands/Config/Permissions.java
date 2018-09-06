@@ -1,4 +1,4 @@
-package me.stgallen.commands.Config;
+package me.stgallen.ccommands.Config;
 
 public class Permissions {
     public static final String TOGGLE_PCALLOW = "command.pctoggle";

@@ -1,6 +1,6 @@
-package me.stgallen.commands.Config;
+package me.stgallen.ccommands.Config;
 
-import me.stgallen.commands.Commands;
+import me.stgallen.ccommands.Commands;
 import ninja.leaping.configurate.commented.CommentedConfigurationNode;
 import ninja.leaping.configurate.hocon.HoconConfigurationLoader;
 import ninja.leaping.configurate.loader.ConfigurationLoader;
